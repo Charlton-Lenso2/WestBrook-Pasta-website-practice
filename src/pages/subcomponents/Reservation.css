@@ -1,0 +1,123 @@
+.reservation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: url("../../assets/homepageimages/homepagehero.jpg") no-repeat
+    center center/cover;
+  padding: 10px;
+  min-height: 100vh;
+}
+
+.reservation-text {
+  padding: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 800px;
+  width: 800px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.19);
+  border: none;
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  color: #fff;
+}
+
+.reservation h1 {
+  font-family: "Italianno", cursive;
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+.reservationform {
+  color: #fff;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.19);
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+}
+
+.reservationform form {
+  padding: 15px;
+}
+
+.firstrow,
+.secondrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 15px;
+  gap: 10px;
+}
+
+.firstrow input,
+.secondrow input {
+  padding: 15px;
+  width: 300px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  background-color: rgba(255, 255, 255, 0.19);
+}
+
+.firstrow input:focus,
+.secondrow input:focus {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  color: #fff;
+  font-size: large;
+}
+
+.firstrow input::placeholder,
+.secondrow input::placeholder {
+  color: #000000;
+}
+
+.restext {
+  padding: 15px;
+}
+.restext textarea {
+  height: 300px;
+  padding: 15px;
+  width: 300px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.19);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.restext textarea::placeholder {
+  color: #000000;
+}
+
+.restext textarea:focus {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  color: #fff;
+  font-size: large;
+}
+
+.reservationform button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bolder;
+  font-size: large;
+  padding: 10px;
+  transition: all 0.5s ease;
+}
+
+.reservationform button:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.12);
+  background-color: #d4d4d4;
+}

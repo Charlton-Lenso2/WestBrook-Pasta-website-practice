@@ -1,0 +1,63 @@
+.aboutrest {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.aboutresttext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 800px;
+  background-color: #dbdbdb;
+  border-radius: 20px;
+}
+
+.aboutrestimg {
+  padding: 15px;
+}
+
+.aboutrestimg img {
+  height: 800px;
+  width: 600px;
+  border-radius: 20px;
+}
+
+.textrest {
+  height: 800px;
+  padding: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textrest h1 {
+  font-family: "Italianno", cursive;
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+.textrest button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  background-color: #000000;
+  color: #fff;
+  font-weight: bolder;
+  font-size: large;
+  padding: 10px;
+  transition: all 0.5s ease;
+}
+
+.textrest button:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.12);
+  background-color: #1a1a1a;
+}

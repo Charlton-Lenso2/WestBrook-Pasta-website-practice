@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 15px;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+.navsection {
+  width: 90%;
+  z-index: 1000;
+  position: fixed;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  height: 60px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.13);
+  border: 1.5px solid rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  background-color: rgba(30, 30, 30, 0.25);
+}
+
+.navsection ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navsection ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.name {
+  align-items: center;
+  font-family: "Italianno", cursive;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 60px;
+}
+
+.contact-pill{
+  align-items: center;
+  padding: 4px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 15px;
+}

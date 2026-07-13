@@ -1,0 +1,154 @@
+.about {
+  top: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  opacity: 0;
+  transition: 0.5s;
+  transform: translateY(40px);
+  animation: fadeUp 0.7s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    transform: translateX(0);
+  }
+}
+.abouth1 {
+  padding: 15px;
+  font-family: "Italianno", cursive;
+  font-weight: bolder;
+  font-size: 45px;
+  text-align: center;
+}
+
+.about h1 {
+  font-family: "Italianno", cursive;
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+.cnctbtn {
+  margin-top: 40px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  background-color: #000000;
+  color: #fff;
+  font-weight: bolder;
+  font-size: large;
+  padding: 10px;
+}
+
+.cnctbtn:hover {
+  transform: scale(1.01);
+  background-color: 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+.aboutp {
+  font-style: italic;
+  text-align: center;
+}
+
+.firstabout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px;
+  /* background-color: #000; */
+  color: #fff;
+  width: 100%;
+}
+
+.secondabout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px;
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+}
+
+.firsttext {
+  padding: 15px;
+  height: 700px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #000;
+}
+
+.secondtext {
+  height: 700px;
+  border-radius: 20px;
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.firstimage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+
+  opacity: 0;
+  transition: 0.5s;
+  transform: translateX(-60px);
+  animation: fadeUp 1.3s ease forwards;
+}
+
+.secondimage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.firstimage img {
+  width: 700px;
+  height: 700px;
+  border-radius: 20px;
+}
+
+.secondimage img {
+  height: 700px;
+  border-radius: 20px;
+}
+
+.team {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+  padding: 10px;
+  margin-top: 180px;
+}
+
+.profile {
+  padding: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}

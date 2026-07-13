@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
+html{
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  top: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px;
+  background-color: #000;
+  margin-top: 30px;
+  margin-top: auto;
+  margin-bottom: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.iconsection {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.icon-github {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  background-color: #000;
+
+  transition: all 0.3s ease;
+}
+
+.icon-github:hover {
+  transform: translateY(-6px) scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon-github:active {
+  transform: scale(0.95);
+}
+
+.icon-linkedin {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  background-color: #0084ff;
+
+  transition: all 0.3s ease;
+}
+
+.icon-linkedin:hover {
+  transform: translateY(-6px) scale(1.1);
+  box-shadow: 0 8px 20px rgb(0, 132, 255);
+}
+
+.icon-linkedin:active {
+  transform: scale(0.95);
+}
+
+.icon-email {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  background-color: #000;
+
+  transition: all 0.3s ease;
+}
+
+.icon-email:hover {
+  transform: translateY(-6px) scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon-email:active {
+  transform: scale(0.95);
+}
+
+h3 {
+  font-family: "Italianno", cursive;
+  font-weight: bolder;
+  font-size: xx-large;
+}
