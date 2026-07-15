@@ -178,3 +178,22 @@
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 900px) {
+  .team {
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .profile img {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  .team {
+    flex-direction: column;
+  }
+}
