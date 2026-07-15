@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -119,4 +119,13 @@ h3 {
   font-family: "Italianno", cursive;
   font-weight: bolder;
   font-size: xx-large;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 30px 20px;
+  }
 }

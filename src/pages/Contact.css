@@ -15,13 +15,12 @@
   animation: fadeUp 0.7s ease forwards;
 }
 
-
 @keyframes fadeUp {
-    to{
-        opacity: 1;
-        transform: translateY(0);
-        transform: translateX(0);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    transform: translateX(0);
+  }
 }
 .conitems {
   display: flex;
@@ -146,3 +145,32 @@
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.12);
   background-color: #d4d4d4;
 }
+
+@media (max-width: 900px) {
+  .conitems {
+    flex-direction: column;
+  }
+
+  .conimg img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .conform {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .conrow {
+    flex-direction: column;
+  }
+
+  .conrow input,
+  .context textarea {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+

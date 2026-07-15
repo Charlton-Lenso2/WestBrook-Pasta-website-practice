@@ -14,10 +14,10 @@
 }
 
 @keyframes fadeUp {
-    to{
-        opacity: 1;
-        transform: translateY(0);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .pic1,
@@ -27,7 +27,7 @@
 }
 
 .pic1:hover,
-.pic2:hover{
+.pic2:hover {
   transform: scale(1.01);
 }
 
@@ -84,4 +84,26 @@
 .chef-story button:hover {
   transform: scale(1.01);
   background-color: 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 900px) {
+  .subhero {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .menu-highlights,
+  .chef-story,
+  .pic1,
+  .pic2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .pic1 img,
+  .pic2 img {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+  }
 }

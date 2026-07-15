@@ -152,3 +152,29 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
+@media (max-width: 900px) {
+  .firstabout,
+  .secondabout {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .firsttext,
+  .secondtext {
+    height: auto;
+    width: 100%;
+  }
+
+  .firstimage img,
+  .secondimage img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .team {
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+}

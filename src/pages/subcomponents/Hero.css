@@ -15,15 +15,13 @@
   animation: fadeUp 0.7s ease forwards;
 }
 
-
 @keyframes fadeUp {
-    to{
-        opacity: 1;
-        transform: translateY(0);
-        transform: translateX(0);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    transform: translateX(0);
+  }
 }
-
 
 .text {
   font-family: "Italianno", cursive;
@@ -45,7 +43,6 @@
   transition: 0.5s;
   transform: translateX(60px);
   animation: fadeUp 1.3s ease forwards;
-
 }
 
 .herotext {
@@ -107,4 +104,55 @@
   transform: scale(1.02);
   kerning: 4px;
   box-shadow: 0 0 60px rgba(255, 255, 255, 0.6);
+}
+
+.heroimage img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    min-height: auto;
+  }
+
+  .text {
+    padding: 20px;
+    align-items: center;
+  }
+
+  .herotext {
+    font-size: 60px;
+  }
+
+  .pasta {
+    font-size: 80px;
+  }
+
+  .heroimage img {
+    max-width: 400px;
+  }
+
+  .btnsec {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .herotext {
+    font-size: 40px;
+  }
+
+  .pasta {
+    font-size: 55px;
+  }
+
+  .btnsec {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
 }

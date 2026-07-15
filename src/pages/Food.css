@@ -16,12 +16,11 @@
   animation: fadeUp 0.7s ease forwards;
 }
 
-
 @keyframes fadeUp {
-    to{
-        opacity: 1;
-        transform: translateY(0);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .food h1 {
@@ -31,9 +30,9 @@
   text-align: center;
 }
 
-.supporttext{
-    text-align: center;
-    font-style: italic;
+.supporttext {
+  text-align: center;
+  font-style: italic;
 }
 
 .foodcontainer {
@@ -91,4 +90,24 @@
   transition: 0.5s;
   transform: translateX(-60px);
   animation: fadeUp 1.3s ease forwards;
+}
+
+@media (max-width: 900px) {
+  .firstfood,
+  .secondfood {
+    flex-wrap: wrap;
+  }
+
+  .food1 img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .firstfood,
+  .secondfood {
+    flex-direction: column;
+  }
 }

@@ -57,10 +57,78 @@
   font-size: 60px;
 }
 
-.contact-pill{
+.contact-pill {
   align-items: center;
   padding: 4px;
   background-color: #000;
   color: #fff;
   border-radius: 15px;
+}
+
+.navsection ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28px;
+  height: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1001;
+}
+
+.hamburger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .name {
+    font-size: 40px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.95);
+    border-radius: 0 0 20px 20px;
+    align-items: center;
+    padding: 20px 0;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .name {
+    font-size: 28px;
+  }
+
+  .navsection {
+    width: 94%;
+  }
 }

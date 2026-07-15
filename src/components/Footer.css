@@ -1,46 +1,51 @@
 .footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 40px;
-    background-color: var(--primary-light);
-    margin-top: 30px;
-    margin-top: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px;
+  background-color: var(--primary-light);
+  margin-top: 30px;
+  margin-top: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
 .iconsection {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
 }
 
 .icon-github {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    background-color: #333;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  background-color: #333;
 
-    transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .icon-github:hover {
-    transform: translateY(-6px) scale(1.1);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transform: translateY(-6px) scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .icon-github:active {
-    transform: scale(0.95);
+  transform: scale(0.95);
 }
 
-
-
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 30px 20px;
+  }
+}

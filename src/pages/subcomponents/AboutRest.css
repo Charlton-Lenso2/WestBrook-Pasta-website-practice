@@ -61,3 +61,24 @@
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.12);
   background-color: #1a1a1a;
 }
+
+@media (max-width: 900px) {
+  .aboutrest {
+    flex-direction: column;
+  }
+
+  .aboutresttext {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .aboutrestimg img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .textrest {
+    height: auto;
+  }
+}

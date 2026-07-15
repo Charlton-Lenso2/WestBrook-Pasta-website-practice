@@ -121,3 +121,30 @@
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.12);
   background-color: #d4d4d4;
 }
+
+@media (max-width: 900px) {
+  .reservation {
+    flex-direction: column;
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .reservation-text,
+  .reservationform {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .firstrow,
+  .secondrow {
+    flex-direction: column;
+  }
+
+  .firstrow input,
+  .secondrow input,
+  .restext textarea {
+    width: 100%;
+    max-width: 300px;
+  }
+}
