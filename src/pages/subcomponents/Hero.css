@@ -15,6 +15,10 @@
   animation: fadeUp 0.7s ease forwards;
 }
 
+.hero {
+  padding-top: 90px;
+}
+
 @keyframes fadeUp {
   to {
     opacity: 1;
@@ -154,5 +158,16 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btnsec {
+    gap: 40px;
+  }
+
+  .viewbtn:hover,
+  .abtbtn:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
   }
 }
